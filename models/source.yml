@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: pinterest
+    schema: "{{ var('pinterest_schema', target.dataset) }}"
+    tables:
+      - name: campaign_history
+        identifier: "{{ var('campaign_history_identifier', 'campaign_history') }}"
+      - name: advertiser_history
+        identifier: "{{ var('advertiser_history_identifier', 'advertiser_history') }}"
+      - name: pin_promotion_history
+        identifier: "{{ var('pin_promotion_history_identifier', 'pin_promotion_history') }}"
+      - name: pin_promotion_report
+        identifier: "{{ var('pin_promotion_report_identifier', 'pin_promotion_report') }}"
