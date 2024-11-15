@@ -1,7 +1,7 @@
 {{
   custom_config(
     alias=var('pinterest_pin_performance_v1_alias','pinterest-pin_performance-v1'),
-    field="TimePeriod")
+    field="date")
 }}
 
 WITH
