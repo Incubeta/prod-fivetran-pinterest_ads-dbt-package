@@ -2,7 +2,7 @@ name: 'pinterest_connectors'
 version: '1.0.0'
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'microsoft'
+profile: 'pinterest'
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
