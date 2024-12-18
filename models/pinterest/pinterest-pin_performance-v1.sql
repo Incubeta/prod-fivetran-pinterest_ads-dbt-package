@@ -11,14 +11,14 @@ WITH
     advertiser_id,
     objective_type campaign_objective_type,
   FROM
-    {{ source('pinterest', 'campaign_history') }} ),
+      {{ source('pinterest', 'campaign_history') }} ),
 
   advertiser_history AS (
   SELECT
     id advertiser_id,
     currency ad_account_currency,
   FROM
-    {{ source('pinterest', 'advertiser_history') }} ),
+      {{ source('pinterest', 'advertiser_history') }} ),
 
   pin_promotion_history AS (
   SELECT
@@ -28,7 +28,7 @@ WITH
     pin_id,
     creative_type pin_promotion_creative_type,
   FROM
-    source('pinterest', 'pin_promotion_history') }} ),
+      {{ source('pinterest', 'pin_promotion_history') }} ),
 
   pin_promotion_report AS (
   SELECT
@@ -63,7 +63,7 @@ WITH
     SAFE_CAST( video_p_95_combined_1 AS STRING ) paid_video_watched_at_95_,
     SAFE_CAST( "30/30/1" AS STRING ) pin_attribution,
   FROM
-    source('pinterest', 'pin_promotion_report') }} )
+      {{ source('pinterest', 'pin_promotion_report') }} )
 
   SELECT
     *
