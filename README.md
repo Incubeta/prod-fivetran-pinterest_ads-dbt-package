@@ -5,7 +5,7 @@
 
 ## How do I use the dbt package?
 ### Step 1: Prerequisites
-To use this dby package, you must have the following:
+To use this dbt package, you must have the following:
 - At least one Fivetran Microsoft connector syncing data for at least one of the predefined reports:
     - campaign_history
     - advertiser_history
