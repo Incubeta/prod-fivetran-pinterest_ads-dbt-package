@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7010edf-f177-415e-be97-761293a27a1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_project.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20241115_0003&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/chigozie/Documents/GitHub/prod-fivetran-pinterest_ads-dbt-package/models&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "chigozie.boniface@incubeta.com",
+    "ACTIVE_CLOUD_PROJECT_ID": "uk-data-pipeline-alpha",
+    "ACTIVE_CLOUD_PROJECT_NAME": "uk-tech-app-datapipeline-alpha",
+    "ACTIVE_CLOUD_PROJECT_NUMBER": "341566395206",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20241218_0001",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/chigozie/Documents/GitHub/prod-fivetran-pinterest_ads-dbt-package/models/pinterest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/pinterest" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/models/pinterest" />
       <recent name="$PROJECT_DIR$/macros" />
     </key>
   </component>
@@ -101,7 +105,10 @@
       <option name="presentableId" value="Default" />
       <updated>1731681320917</updated>
       <workItem from="1731681321991" duration="1661000" />
-      <workItem from="1731922649425" duration="3067000" />
+      <workItem from="1731922649425" duration="3448000" />
+      <workItem from="1731941369742" duration="734000" />
+      <workItem from="1732005456108" duration="1498000" />
+      <workItem from="1734513558240" duration="335000" />
     </task>
     <servers />
   </component>
