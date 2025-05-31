@@ -4,6 +4,7 @@
     field="date")
 }}
 
+{{config(event_time="date")}}
 WITH
   ad_group_report AS (
   SELECT DISTINCT
