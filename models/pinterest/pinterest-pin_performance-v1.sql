@@ -3,6 +3,7 @@
     alias=var('pinterest_pin_performance_v1_alias','pinterest-pin_performance-v1'),
     field="date")
 }}
+{{config(event_time="date")}}
 
 WITH
   campaign_history AS (
