@@ -70,7 +70,7 @@ FROM
 
     {{ref('pinterest-ad_group-v1') }} source_a
 
-LEFT JOIN exchange_location
+LEFT JOIN exchange_source
 
 
 ON
